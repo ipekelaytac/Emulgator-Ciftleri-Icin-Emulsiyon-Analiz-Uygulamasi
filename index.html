@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parametre Tahmini</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        mb-5 {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="table60x60 m-4">
+        <h1>Bileşim Oranı Tahmin Span60-Tween60</h1>
+        <p class="lead">Span60-Tween60 Emülgatör Çifti için VA-Co-BuA latekslere Ait Belirlenen Bileşim Oranlarında Parçacık Boyutu, Polidispersite, Yüzey Gerilimi ve Zeta Potansiyel Değerleri Tahminleri</p>
+        <div class="form-group">
+            <label for="compositionRatio1Table60x60">Bileşim Oranı 1:</label>
+            <input type="number" class="form-control" id="compositionRatio1Table60x60"
+                   aria-describedby="compositionRatio1Table60x60Description">
+            <small id="compositionRatio1Table60x60Description" class="form-text text-muted">Span60 için
+                Bileşim Oranı Giriniz.</small>
+        </div>
+        <div class="form-group">
+            <label for="compositionRatio2Table60x60">Bileşim Oranı 2:</label>
+            <input type="number" class="form-control" id="compositionRatio2Table60x60"
+                   aria-describedby="compositionRatio2Table60x60Description">
+            <small id="compositionRatio2Table60x60Description" class="form-text text-muted">Tween60 için
+                Bileşim Oranı Giriniz.</small>
+        </div>
+        <button id="addButton60x60" class="btn btn-primary mb-5">Hesapla</button>
+        <table class="table table-dark mb-5" id="table60x60">
+            <thead>
+            <tr>
+                <th scope="col">Parametre</th>
+                <th scope="col">HLB</th>
+                <th scope="col">Viskozite</th>
+                <th scope="col">Tanecik Boyutu</th>
+                <th scope="col">Yüzey Gerilimi</th>
+                <th scope="col">Zeta Potansiyel</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>10:90</td>
+                <td>14.56</td>
+                <td>45.92</td>
+                <td>325.80.171</td>
+                <td>38.16</td>
+                <td>26.56</td>
+            </tr>
+            <tr>
+                <td>15:85</td>
+                <td>13.99</td>
+                <td>41.87</td>
+                <td>319.30.090</td>
+                <td>37.02</td>
+                <td>22.09</td>
+            </tr>
+            <tr>
+                <td>20:80</td>
+                <td>13.42</td>
+                <td>38.17</td>
+                <td>313.80.440</td>
+                <td>36.71</td>
+                <td>21.36</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr class="hr">
+    <div class="table60x80 m-4">
+        <h1>Bileşim Oranı Tahmin Span60-Tween80</h1>
+        <p class="lead">Span60-Tween80 Emülgatör Çifti için VA-Co-BuA latekslere Ait Belirlenen Bileşim Oranlarında Parçacık Boyutu, Polidispersite, Yüzey Gerilimi ve Zeta Potansiyel Değerleri Tahminleri</p>
+        <div class="form-group">
+            <label for="compositionRatio1Table60x80">Bileşim Oranı 1:</label>
+            <input type="number" class="form-control" id="compositionRatio1Table60x80"
+                   aria-describedby="compositionRatio1Table60x80Description" >
+            <small id="compositionRatio1Table60x80Description" class="form-text text-muted">Span60 için
+                Bileşim Oranı Giriniz.</small>
+        </div>
+        <div class="form-group">
+            <label for="compositionRatio2Table60x80">Bileşim Oranı 2:</label>
+            <input type="number" class="form-control" id="compositionRatio2Table60x80"
+                   aria-describedby="compositionRatio2Table60x80Description" >
+            <small id="compositionRatio2Table60x80Description" class="form-text text-muted">Tween80 için
+                Bileşim Oranı Giriniz.</small>
+        </div>
+        <button id="addButton60x80" class="btn btn-primary mb-5">Hesapla</button>
+        <table class="table table-dark mb-5" id="table60x80">
+            <thead>
+            <tr>
+                <th scope="col">Parametre</th>
+                <th scope="col">HLB</th>
+                <th scope="col">Viskozite</th>
+                <th scope="col">Tanecik Boyutu</th>
+                <th scope="col">Yüzey Gerilimi</th>
+                <th scope="col">Zeta Potansiyel</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>10:90</td>
+                <td>15.730</td>
+                <td>21.455</td>
+                <td>394.30.053</td>
+                <td>39.52</td>
+                <td>3.72</td>
+            </tr>
+            <tr>
+                <td>15:85</td>
+                <td>15.095</td>
+                <td>46.355</td>
+                <td>280.20.081</td>
+                <td>38.78</td>
+                <td>14.57</td>
+            </tr>
+            <tr>
+                <td>20:80</td>
+                <td>14.460</td>
+                <td>98.936</td>
+                <td>240.90.197</td>
+                <td>37.54</td>
+                <td>25.47</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr class="hr">
+    <div class="table80x80 m-4">
+        <h1>Bileşim Oranı Tahmin Span80-Tween80</h1>
+        <p class="lead">Span80-Tween80 Emülgatör Çifti için VA-Co-BuA latekslere Ait Belirlenen Bileşim Oranlarında Parçacık Boyutu, Polidispersite, Yüzey Gerilimi ve Zeta Potansiyel Değerleri Tahminleri</p>
+        <div class="form-group">
+            <label for="compositionRatio1Table80x80">Bileşim Oranı 1:</label>
+            <input type="number" class="form-control" id="compositionRatio1Table80x80"
+                   aria-describedby="compositionRatio1Table80x80Description">
+            <small id="compositionRatio1Table80x80Description" class="form-text text-muted">Span80 için
+                Bileşim Oranı Giriniz.</small>
+        </div>
+        <div class="form-group">
+            <label for="compositionRatio2Table80x80">Bileşim Oranı 2:</label>
+            <input type="number" class="form-control" id="compositionRatio2Table80x80"
+                   aria-describedby="compositionRatio2Table80x80Description">
+            <small id="compositionRatioTable80x80Description" class="form-text text-muted">Tween80 için
+                Bileşim Oranı Giriniz.</small>
+        </div>
+        <button id="addButton80x80" class="btn btn-primary mb-5">Hesapla</button>
+        <table class="table table-dark" id="table80x80">
+            <thead>
+            <tr>
+                <th scope="col">Parametre</th>
+                <th scope="col">HLB</th>
+                <th scope="col">Viskozite</th>
+                <th scope="col">Tanecik Boyutu</th>
+                <th scope="col">Yüzey Gerilimi</th>
+                <th scope="col">Zeta Potansiyel</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>10:90</td>
+                <td>15.770</td>
+                <td>38.47</td>
+                <td>367.80.096</td>
+                <td>36.38</td>
+                <td>21.51</td>
+            </tr>
+            <tr>
+                <td>15:85</td>
+                <td>15.155</td>
+                <td>39.63</td>
+                <td>291.10.063</td>
+                <td>37.18</td>
+                <td>22.67</td>
+            </tr>
+            <tr>
+                <td>20:80</td>
+                <td>14.540</td>
+                <td>40.35</td>
+                <td>279.00.059</td>
+                <td>37.54</td>
+                <td>24.61</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr class="hr mb-5">
+</div>
+<script src="table60x60.js"></script>
+<script src="table60x80.js"></script>
+<script src="table80x80.js"></script>
+</body>
+</html>
